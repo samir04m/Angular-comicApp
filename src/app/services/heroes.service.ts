@@ -58,8 +58,8 @@ export class HeroesService {
   constructor() {
      console.log("Servicio listo");
   }
-
-  getHeroes(){
+  
+  public getHeroes(){
      return this.heroes;
- }
+  }
 }
